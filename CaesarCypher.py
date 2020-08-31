@@ -18,7 +18,9 @@ text = input("Type the text to encrypt: ")
 # Introducing the level of the cypher
 level = int(input("Please, state the level of encryption: "))
 
-# Print the information and the encrypted text
+# Print the text that the user gave
 print("The Original Text is: " + text)
+# Print the level of encryption (how many movement of letters will be)
 print("The level of encryption is: " + str(level))
+# Print the encrypted message
 print("The encrypted text is: " + encrypt(text,level))
